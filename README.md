@@ -1,71 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Image Slider - React.js Project
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Ce projet est une application web développée en **React.js** qui permet d'afficher un **slider d'images**. Les utilisateurs peuvent naviguer entre les images de manière fluide grâce à des boutons de navigation, et l'application prendra également en charge le défilement automatique.
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Affichage d'un slider d'images.
+- Navigation manuelle à l'aide des boutons "Suivant" et "Précédent".
+- Défilement automatique des images après un certain délai (a implémenter).
+- Support des images responsives pour s'adapter à différentes tailles d'écran (a implémenter).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies Utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** : Librairie JavaScript pour construire l'interface utilisateur.
+- **CSS** : Pour le style et les animations.
+- **JavaScript (ES6+)** : Logique fonctionnelle et interactions du slider.
+- **React Hooks** : Utilisation de `useState`  pour gérer l'état .
 
-### `npm run build`
+## Prérequis
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Assurez-vous d'avoir **Node.js** et **npm** installés sur votre machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clonez ce dépôt sur votre machine locale :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/username/react-image-slider.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Accédez au dossier du projet :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd react-image-slider
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Installez les dépendances du projet avec npm :
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Utilisation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pour démarrer le serveur de développement et lancer l'application :
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Cela ouvrira l'application dans votre navigateur par défaut, généralement à l'adresse suivante : [http://localhost:3000](http://localhost:3000).
 
-### Analyzing the Bundle Size
+## Structure du Projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+/public
+  index.html          # Fichier HTML principal
+  images              # Fichier d'images
+/src
+  /data
+    sliderData.js     # tableau d'organisation des images du slide
+  /components
+    /slider        
+        Slide.js      # Composant du slide
+  App.js              # Composant racine
+  index.js            # Fichier d'entrée principal de l'application
 
-### Making a Progressive Web App
+README.md             # Documentation du projet
+package.json          # Informations et scripts npm
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Personnalisation
 
-### Advanced Configuration
+- Vous pouvez ajouter vos propres images en modifiant le tableau d'images dans le composant `SliderData.js`.
+- Les styles du slider peuvent être ajustés dans le fichier `Slider.css`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Scripts Disponibles
 
-### Deployment
+- **`npm start`** : Lance l'application en mode développement.
+- **`npm run build`** : Génère une version optimisée pour la production.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contribuer
 
-### `npm run build` fails to minify
+Les contributions sont les bienvenues ! Si vous avez des suggestions d'amélioration ou des rapports de bogues, n'hésitez pas à ouvrir une **issue** ou à soumettre une **pull request**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Slider
+## Auteur
+
+- **Nom** : Ronald
+- **Contact** : [jeroboumg@gmail.com]
+
+## Licence
+
+Ce projet est sous licence MIT. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
+```
