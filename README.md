@@ -39,7 +39,7 @@ Assurez-vous d'avoir **Node.js** et **npm** installés sur votre machine.
 2. Accédez au dossier du projet :
 
    ```bash
-   cd react-image-slider
+   cd slider
    ```
 
 3. Installez les dépendances du projet avec npm :
@@ -98,5 +98,4 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions d'améliora
 
 ## Licence
 
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
-```
+Ce projet est sous licence MIT. 
