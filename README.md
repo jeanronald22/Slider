@@ -10,7 +10,7 @@ Ce projet est une application web développée en **React.js** qui permet d'affi
 
 - Affichage d'un slider d'images.
 - Navigation manuelle à l'aide des boutons "Suivant" et "Précédent".
-- Défilement automatique des images après un certain délai (a implémenter).
+- Défilement automatique des images après un certain délai.
 - Support des images responsives pour s'adapter à différentes tailles d'écran (a implémenter).
 
 

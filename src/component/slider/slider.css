@@ -25,4 +25,16 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
+}
+.slideImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /*position: absolute;*/
+        /*opacity: 0; initialement masquer*/
+        transition: opacity 1s ease-in-out;
+}
+.shwo {
+        opacity: 1;
 }
